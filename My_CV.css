@@ -1,0 +1,342 @@
+body{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    text-align: center;
+    padding-left: 50px;
+}
+.entire{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 2120px;
+}
+.outer_div{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center ;
+    width: 50%;
+    height: 2120px;
+}
+.div1{
+    background-color: #ffffff;
+    width: 95%;
+    height: 500px;
+}
+.div2{
+    background-color: #ffffff;
+    width: 95%;
+    height:220px;
+}
+.div3{
+    background-color: #ffffff;
+    width: 95%;
+    height:150px;
+}
+.div4{
+    background-color: #ffffff;
+    width: 95%;
+    height:230px;
+}
+.div5{
+    background-color: #ffffff;
+    width: 95%;
+    height:200px;
+}
+.div6{
+    background-color: #ffffff;
+    width: 95%;
+    height:210px;
+}
+.div7{
+    background-color: #ffffff;
+    width: 95%;
+    height:210px;
+}
+.div8{
+    background-color: #ffffff;
+    width: 95%;
+    height:170px;
+}
+
+.outer_div2{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 2120px;
+}
+.div-a{
+    background-color: #ffffff;
+    width: 95%;
+    height: 260px;
+}
+.div-b{
+    background-color: #ffffff;
+    width: 95%;
+    height:280px;
+}
+.div-c{
+    background-color:#ffffff;
+    width: 95%;
+    height:330px;
+}
+.div-d{
+    background-color:#ffffff;
+    width: 95%;
+    height:235px;
+}
+.div-e{
+    background-color:#ffffff;
+    width: 95%;
+    height:105px;
+}
+.div-f{
+    background-color:#ffffff;
+    width: 95%;
+    height:170px;
+}
+.div-g{
+    background-color: #ffffff;
+    width: 95%;
+    height:200px;
+}
+.div-h{
+    background-color:#ffffff;
+    width: 95%;
+    height:125px;
+}
+.div-i{
+    background-color:#ffffff;
+    width: 95%;
+    height:180px;
+}
+
+h3{
+    background-color: rgb(173, 172, 172);
+    text-align: center;
+    font-size: larger;
+    border: none 2px black;
+    border-radius: 5px;
+    height: 23px;
+}
+.name{
+    text-align: center;
+    border: none 2px black;
+    border-radius: 5px;
+    background-color: rgb(214, 214, 213);
+}
+.name-child{
+    text-align: center;
+    border: none 2px black;
+    border-radius: 5px;
+    background-color: rgb(247, 246, 246);
+}
+.photo{
+    border: none;
+    border-radius: 50%;
+    display: block;
+    margin-left: 10%;
+}
+.gmail{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    /* text-align: center; */
+}
+.phone{
+    text-align: center;
+}
+.date{
+    text-align: center;
+}
+.col-gmail{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+.address{
+    background-color: rgb(255, 255, 255);
+}
+.link-block{
+    background-color: #ffffff;
+    width: 84%;
+}
+.link-block ul li a:hover{
+    color: red;
+}
+.link-block ul li{
+    display: inline-block;
+    float: left;
+    left: 0px;
+    list-style: none;
+}
+.link-block ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.carrier-objective{
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+    padding: 0 15px;
+    word-spacing: normal;
+}.gmail-image{
+    vertical-align: middle;
+    padding: 0 7px;
+}
+.github-image{
+    vertical-align:middle;
+    padding: 0 7px;
+
+}
+.linkedin-image{
+    vertical-align: middle;
+    padding: 0 7px;
+    margin-left: 0px;
+    float: left;
+}
+.portfolio-image{
+    vertical-align: middle;
+    padding: 0 7px;
+}
+.phone-image{
+    vertical-align: middle;
+    padding: 0 7px;
+}
+.calender-image{
+    vertical-align: middle;
+    padding: 0 7px;
+}
+.address-image{
+    vertical-align: middle;
+    padding: 0 7px;
+    padding-left: 0;
+}
+.skills{
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.skills ul{
+    justify-content: space-around;
+}
+.skills ul li{
+    border: black 1px solid;
+    font-weight: bold;
+    border-radius: 7px;
+    margin:2px 10px;
+    padding: 10px;
+    background-color: gainsboro;
+    display: inline-block;
+    text-decoration: none;
+}
+.areas-of-interest{
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.areas-of-interest ul{
+    justify-content: space-around;
+}
+.areas-of-interest ul li{
+    border: black 1px solid;
+    font-weight: bold;
+    border-radius: 7px;
+    margin:10px 10px;
+    padding: 10px;
+    background-color: gainsboro;
+    display: inline-block;
+    text-decoration: none;
+}
+h4{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top:5px;
+    margin-bottom: 0%;
+    padding-left: 5px;
+}
+h5{
+    background-color: #ffffff;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.experience{
+    text-align: justify;
+    line-height: 1.4;
+    padding: 0 15px;
+    word-spacing: normal;
+}
+p{
+    background-color: rgb(255, 255, 255);
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.hobby{
+    font-weight: bolder;
+}
+.hobby ul li{
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    margin:10px 10px;
+    list-style: none;
+}
+.languages{
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.languages ul{
+    justify-content: space-around;
+}
+.languages ul li{
+    border: black 1px solid;
+    font-weight: bold;
+    border-radius: 7px;
+    margin:10px 10px;
+    padding: 10px;
+    background-color: gainsboro;
+    display: inline-block;
+    text-decoration: none;
+}
+.declaration{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.declaration-decript{
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+    padding: 0 15px;
+    word-spacing: normal;
+}
+.decl-name{
+    background-color: white;
+    text-align: right;
+    padding: 20px;
+}
+.backcolor
+{
+    background-color: aquamarine;
+}
