@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.body{
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.content img{
+    height: 300px;
+    width: 300px;
+}
+
+
+.image
+{
+    padding-left: 700px;
+    height: 80px;
+    width: 100px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(img/bg.png);
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  position: fixed;
+  z-index: 999;
+}
+.logo {
+  max-height: 60px;
+}
+.nbar{
+    border: 2px;
+    /* border-radius: 30px; */
+    padding-left: 48%;
+    /* padding-right: 0px; */
+    padding-bottom: 0%;
+    background-color: #242323;
+
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #d4d4d8;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #fd4766;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #fd4766;
+  border: 2px solid #fd4766;
+}
+.btn:hover {
+  background: transparent;
+  border-color: #fd4766;
+  color: #fd4766;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.content .title {
+  color: #8d7070;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #e3bbc2 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content h1 {
+  color: #1f1f25;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color: #fd4766;
+}
+.content p {
+  width: 55%;
+  color: #202020;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+/* linkedin image */
+.limg
+{
+    background-image: url("https://openclassify.com/files/images/1643277332-social_integration_linkedin_m.png");
+}
+
+/* web devoper  animation*/
+.role
+{
+  color: rgb(27, 32, 32);
+  /* padding-left: 3-0px; */
+  font-size: 30px;
+  /* padding-top: 5px; */
+}
